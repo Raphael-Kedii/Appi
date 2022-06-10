@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "664127746526",
+    "project_id": "appi-a7a80",
+    "storage_bucket": "appi-a7a80.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:664127746526:android:5ff1e40b99925f7f9b6d4f",
+        "android_client_info": {
+          "package_name": "com.boldcomp.appi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "664127746526-1ka1gljhd5d9v14o8ojf39jj165f1s36.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBb0hUiThmPPtAEJTLpMgtvcBsPkF2b5zU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "664127746526-1ka1gljhd5d9v14o8ojf39jj165f1s36.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

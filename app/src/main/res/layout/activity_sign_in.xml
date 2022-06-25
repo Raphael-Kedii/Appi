@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#15293A"
+    tools:context=".SignInActivity">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Sign In"
+        android:textSize="35sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textColor="#FFFFFF"
+        />
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:id="@+id/emailEt"
+        android:textSize="20sp"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:hint="Enter Email"/>
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:textColorHint="#FFFFFF"
+        android:textSize="20sp"
+        android:id="@+id/passEt"
+        android:textColor="#FFFFFF"
+        android:hint="Enter Password"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:layout_margin="15dp"
+        android:layout_gravity="center"
+        android:background="@drawable/mybutton"
+        android:textSize="20sp"
+        android:id="@+id/signBtn"
+        android:textColor="#FFFFFF"
+        android:text="Sign In"/>
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/newT"
+        android:text="New"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textColor="#FFFFFF"/>
+
+  </LinearLayout>
